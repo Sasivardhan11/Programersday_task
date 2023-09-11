@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    color: white;
+}
+#cf1{   
+    background: url('images/family.jpg') center center/cover;
+    height: 600px;
+    width: 100%;
+}
+.navbar{
+    display: inline;
+}
+.navigation{
+    display: flex;
+    flex-direction: row-reverse;
+}
+li{
+    list-style: none;
+    padding: 20px 20px;
+}
+select{
+    border: none;
+    background: none;
+    color: white;
+}
+h2{
+    /* display: inline; */
+    margin: 30px 10px;
+}
+.bt1{
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.bt2{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    color: green;
+    border-radius: 5px;
+}
+.matter{
+    font-size: 50px;
+}
+#cf2{
+    color: black;
+}
+#i1{
+    color: chartreuse;
+}
+#i2,#i3,#i4{
+    font-size: 50px;
+}
+#i5,#i6,#i7{
+    display: block;
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+}
+#c2r2{
+    padding: 30px;
+    background-color: rgba(4, 4, 235, 0.884);
+    position: relative;
+    bottom: 50px;
+}
+#c1 #img1{
+    box-shadow: 15px 15px 1px 3px lightgray;
+    height: 400px;
+    width: 400px;
+    border-radius: 3px;
+}
+#img2{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+#sp1{
+    font-size: 30px;
+}
+#sp2{
+    font-size: 30px;
+}
+#sp3{
+    font-size: 15px;
+    display: inline;
+}
+#c3{
+    padding: 50px;
+    justify-content: center;
+    background-color: blue;
+}
+#detro{
+    padding: 20px;
+}
+details{
+    font-size: 20px;
+}
+#img3{
+    height: 400px;
+    width: 500px;
+}
+#img4{
+    height: 300px;
+    width: auto;
+}
+#h33{
+    font-size: 40px;
+}
+#card1{
+    border: none;
+}
+#img5{
+    height: 200px;
+    width: auto;
+}
+#bgc{
+    padding: 30px;
+    background: url('images/family.jpg');   
+    opacity: 0.6;
+    color: black;
+}
+#bgc p{
+    font-weight: 600;
+}
+#bgc h3{
+    font-weight: 700;
+}
